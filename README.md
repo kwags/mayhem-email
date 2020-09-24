@@ -1,7 +1,7 @@
 # mayhem-email
 Mississippi Valley Mayhem Roller Derby 2021 HTML Emails
 
-Responsive HTML Code for sending marketing emails to be sent out to email list via ESP (email service provider) ie Mailchimp, Constant Contact, MailerLite.
+Responsive HTML Code for marketing emails to be sent out to email list via ESP (email service provider) ie Mailchimp, Constant Contact, MailerLite.
 
 Fist Email: welcome_email
 Thanks subscribers for joining the email news letter
