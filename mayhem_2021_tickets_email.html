@@ -61,11 +61,22 @@
 			.mobilefullwidth {
 				width: 100% !important;
 				height: auto !important;
+				background-position: center-bottom !important;
+				background-size:cover !important;
+
 			}
 
 			.logo {
-				padding-left: 30px !important;
-				padding-right: 30px !important;
+				width: 10% !important;
+				height: auto !important;
+				padding-top: 20px !important;
+				padding-right: 20px !important;
+			}
+
+			.herotext {
+				font-size: 75% !important
+				padding-left: 20px !important;
+				padding-right: 20px !important;
 			}
 
 			.h1 {
@@ -85,10 +96,18 @@
 
 			.h3 {
 				font-size: 20px !important;
-				line-height: 30px !important;
 				padding-right: 10px !important;
 				padding-left: 0px !important;
 			}
+
+			.largetext {
+				font-size: 40px !important;
+			}
+
+			.smallline {
+				width: 15% !important;
+			}
+
 
 			.p {
 				font-size: 16px !important;
@@ -101,6 +120,11 @@
 				padding-left: 30px !important;
 				padding-right: 30px !important;
 				padding-bottom: 30px !important;
+			}
+
+			.button {
+				padding-left: 30px !important;
+				padding-right: 30px !important;
 			}
 
 			.info_wrap {
@@ -140,6 +164,13 @@
 <![endif]-->
 
 
+<!--
+<td> <font color="#ffffff" align="right" background="#212121">
+2021 Game tickets</font></p>
+</td>
+</tr>
+</table>
+-->
 <!-- // FULL EMAIL -->
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
@@ -150,46 +181,57 @@
 		<!-- LEFT SPACER CELL // -->
 
 			<!-- // MAIN CONTENT CELL -->
-			<td align="center" width="600" bgcolor="#212121">
-				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-					<tbody>
+<td align="center" width="600px" bgcolor="#212121">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 
-						<!-- START OF CONTENT -->
 
-						<!-- LOGO BLOCK -->
+
+
+<!-- //HERO + LOGO-->
+
+<tbody class="mobilefullwidth" width="100%" height="auto" align="center" background="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5f6bb18b579dc92f841b260b_ticket_hero01.png" style="backgroundd-position: center; background color: #212121; background-repeat: no-repeat;">
+		<tr>
+			<td class="logo" align="right" style="padding: 30px 30px 0px 0px;">
+				<a href="http://www.mississippivalleymayhem.com/" target="_blank">
+				<img src="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5ef2182c935e3853820e56e8_mayhem_logo_onblack.png" width="19%" height="auto" alt="Mayhem logo"></a>
+			</td>
+		</tr>
+		<tr>
+			<td class="herotext" align="right" style="padding: 30px 30px 110px 0px; ">
+				<hr class="smallline" align="right"style="height:2px; width:25%; border-width:0; color:#7BC142; background-color:#7BC142; display: inline-block;"> </hr>
+				<h3 class="h3" align="right" style="display: inline-block; font-size: 16px; line-height: 16px; font-weight: 700; color: #7BC142; text-transform: uppercase;">
+					2021 Game </h3><br>
+				<text class="largetext" align="right" style="font-size: 60px; line-height: 24px; font-weight: 700; color: #FFFFFF; text-transform: uppercase; padding-bottom: 100px;">
+					Tickets </text>
+			</td>
+		</tr>
+	</tbody>
+
+
+<!-- START OF CONTENT -->
+
+<tbody>
+
+<!-- h1 -->
+		<tr>
+			<td class="h1" align="center" bgcolor="#212121" style="padding: 50px 50px 20px 50px;
+				font-size: 36px; line-height: 43px; font-weight: 600; color: #FFFFFF; text-transform: uppercase;">
+					Let the <span style="color: #7BC142">Mayhem</span> Begin!
+			</td>
+		</tr>
+
+<!-- h2 -->
+		<tr>
+			<td class="h2" align="center" bgcolor="#212121" style="padding: 0px 50px 20px 50px;
+				font-size: 22px; line-height: 33px; font-weight: 600; color: #EDEDED;">
+					Our 2021 Season is just about here! <br>
+					Do you have your tickets?
+			</td>
+		</tr>
+
+		<!-- BUTTON WRAP-->
 						<tr>
-							<td class="logo" align="center" bgcolor="#212121" style="padding-top: 20px; padding-bottom: 20px;">
-								<a href="http://www.mississippivalleymayhem.com/" target="_blank">
-								<img src="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5ef2182c935e3853820e56e8_mayhem_logo_onblack.png" width="108px" height="auto" alt="Mayhem logo">
-						</tr>
-
-						<!-- HERO IMAGE -->
-						<tr>
-							<td class="mobilefullwidth" align="center" bgcolor="#212121">
-								<img src="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5ef397a9ce916677cbbf5c97_hero_image_text.png" width="100%" height="auto" alt="Roller Derby Action">
-							</td>
-						</tr>
-
-						<!-- h1 -->
-						<tr>
-							<td class="h1" align="center" bgcolor="#212121" style="padding: 50px 50px 20px 50px;
-							font-size: 36px; line-height: 43px; font-weight: 600; color: #FFFFFF; text-transform: uppercase;">
-								Let the <span style="color: #7BC142">Mayhem</span> Begin!
-							</td>
-						</tr>
-
-						<!-- h2 -->
-						<tr>
-							<td class="h2" align="center" bgcolor="#212121" style="padding: 0px 50px 20px 50px;
-							font-size: 22px; line-height: 33px; font-weight: 600; color: #EDEDED;">
-							Our 2021 Season is just about here! <br>
-							Do you have your tickets?
-							</td>
-						</tr>
-
-						<!-- BUTTON WRAP-->
-						<tr>
-							<td class="button_wrap" bgcolor="#212121" align="center" style="padding: 0px 50px 50px 50px;">
+							<td class="button_wrap" bgcolor="#212121" align="center" style="padding: 0px 30px 50px 30px;">
 								<table border="0" cellspacing="0" cellpadding="0" align="center">
 									<!-- // BUTTON-->
 									<tr>
@@ -202,43 +244,47 @@
 								</table>
 							</td>
 						</tr>
-
-						<!-- h3 HOME SCHEDULE -->
-
-							<td class="info_wrap" bgcolor="#212121"; align="left"  style="padding: 0px 50px 20px 50px;">
-								<table border="0" cellspacing="0" cellpadding="0" align="left">
-									<tr>
-										<td class="h3" align="left" bgcolor="#212121" style="padding: 0px 10px 0px 0px;
-										font-size: 20px; line-height: 30px; font-weight: 700; color: #7BC142; text-transform: uppercase;">
-										2021 Home Season
-										</td>
-									</tr>
-									<tr>
-									</tr>
-								</table>
-							<!-- LINE -->
-							<hr class="line" style="height:2px; border-width:0; color:#7BC142; background-color:#7BC142;">
-						</td>
+					</tbody>
 
 
+							<!-- h3 HOME SCHEDULE -->
+							<tbody class="mobilefullwidth" width="100%" height="auto" align="bottom" border="0" cellspacing="0" cellpadding="0" align="center" background="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5ef4dd9f772033169641a6b5_team_tall.png" style="background-position: center bottom; background-color:#212121; background-repeat: no-repeat;">
+								<td class="info_wrap" align="left"  style="padding: 20px 50px 0px 50px;">
+									<table border="0" cellspacing="0" cellpadding="0" align="left">
+										<tr>
+											<td class="h3" align="left" style="padding: 0px 10px 0px 0px;
+											font-size: 20px; line-height: 30px; font-weight: 700; color: #7BC142; text-transform: uppercase;">
+											2021 Home Season
+											</td>
+										</tr>
+										<tr>
+										</tr>
+									</table>
+								<!-- LINE -->
+								<hr class="line" style="height:2px; border-width:0; color:#7BC142; background-color:#7BC142;">
+							</td>
+							<!-- SCHEDULE -->
+							<tr class="mobilefullwidth" width="100%" height="auto" border="0" cellspacing="0" cellpadding="0" align="center" >
+								<td>
+									<h2 class="h2" align="center" bgcolor="#212121" style="font-size: 22px; line-height: 22px; font-weight: 600; color: #FFFFFF; padding: 0px 50px 0px 50px">
+										Saturday, June 20</h2>
+									<p class="p" align="center" bgcolor="#212121" style="color: #7BC142;">
+										Mayhem vs Quad City Rollers</p>
+									<h2 class="h2" align="center" bgcolor="#212121" style="font-size: 22px; line-height: 22px; font-weight: 600; color: #FFFFFF;">
+										Saturday, July 10</h2>
+									<p class="p" align="center" bgcolor="#212121" style="color: #7BC142;">
+										Mayhem vs MedCity Mafia</p>
+									<h2 class="h2" align="center" bgcolor="#212121" style="font-size: 22px; line-height: 22px; font-weight: 600; color: #FFFFFF;">
+										Saturday, August 14</h2>
+									<p class="p" align="center" bgcolor="#212121" style="color: #7BC142; padding: 0px 0px 20px 0px">
+										Mayhem vs South Bend Rollers</p>
+								</td>
+							</tr>
+						</tbody>
 
-					<!-- SCHEDULE -->
-					<tr class="mobilefullwidth" width="100%" height="auto" align="bottom" border="0" cellspacing="0" cellpadding="0" align="center" background="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5ef4dd9f772033169641a6b5_team_tall.png" style="background-position: center bottom; background-color:#212121; background-repeat: no-repeat;">
-						<td>
-							<h2 class="h2" align="center" bgcolor="#212121" style="font-size: 22px; line-height: 22px; font-weight: 600; color: #FFFFFF; padding: 20px 0px 0px 0px">
-								Saturday, June 20</h2>
-							<p class="p" align="center" bgcolor="#212121" style="color: #7BC142;">
-								Mayhem vs Quad City Rollers</p>
-							<h2 class="h2" align="center" bgcolor="#212121" style="font-size: 22px; line-height: 22px; font-weight: 600; color: #FFFFFF;">
-								Saturday, July 10</h2>
-							<p class="p" align="center" bgcolor="#212121" style="color: #7BC142;">
-								Mayhem vs MedCity Mafia</p>
-							<h2 class="h2" align="center" bgcolor="#212121" style="font-size: 22px; line-height: 22px; font-weight: 600; color: #FFFFFF;">
-								Saturday, August 14</h2>
-							<p class="p" align="center" bgcolor="#212121" style="color: #7BC142; padding: 0px 0px 20px 0px">
-								Mayhem vs South Bend Rollers</p>
-						</td>
-					</tr>
+
+
+
 						<!-- h3 TICKET PRICES -->
 						<tr>
 							<td class="info_wrap" bgcolor="#212121"; align="left"  style="padding: 50px 50px 20px 50px;">
@@ -249,9 +295,13 @@
 										Ticket Prices
 										</td>
 									</tr>
+									<tr>
+									</tr>
 								</table>
 							<!-- LINE -->
 							<hr class="line" style="height:2px; border-width:0; color:#7BC142; background-color:#7BC142;">
+						</td>
+
 						</tr>
 
 						<!-- PARAGRAPH TICKET INFO -->
@@ -278,6 +328,8 @@
 								</table>
 							<!-- LINE -->
 							<hr class="line" style="height:2px; border-width:0; color:#7BC142; background-color:#7BC142;">
+						</td>
+
 						</tr>
 
 						<!-- PARAGRAPH VENUE INFO -->
@@ -353,16 +405,16 @@
 						<!-- END OF CONTENT -->
 
 					</tbody>
-				</table>
 
-			</td>
+</table>
+</td>
 		<!-- MAIN CONTENT CELL //  -->
 
 		<!-- // RIGHT SPACER CELL *** MUST HAVE A BACKGROUND COLOUR -->
 		<td bgcolor="#EDEDED" style="font-size:0px">&zwnj;</td>
 		<!-- RIGHT SPACER CELL // -->
 
-	</tr>
+</tr>
 </table>
 <!-- FULL EMAIL // -->
 </body>
