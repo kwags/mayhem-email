@@ -63,20 +63,6 @@
 				height: auto !important;
 				background-position: center-bottom !important;
 				background-size:cover !important;
-
-			}
-
-			.logo {
-				width: 10% !important;
-				height: auto !important;
-				padding-top: 20px !important;
-				padding-right: 20px !important;
-			}
-
-			.herotext {
-				font-size: 75% !important
-				padding-left: 20px !important;
-				padding-right: 20px !important;
 			}
 
 			.h1 {
@@ -99,15 +85,6 @@
 				padding-right: 10px !important;
 				padding-left: 0px !important;
 			}
-
-			.largetext {
-				font-size: 40px !important;
-			}
-
-			.smallline {
-				width: 15% !important;
-			}
-
 
 			.p {
 				font-size: 16px !important;
@@ -132,7 +109,6 @@
 				padding-right: 30px !important;
 				padding-bottom: 20px !important;
 			}
-
 
 			.footer {
 				padding-left: 30px !important;
@@ -164,13 +140,6 @@
 <![endif]-->
 
 
-<!--
-<td> <font color="#ffffff" align="right" background="#212121">
-2021 Game tickets</font></p>
-</td>
-</tr>
-</table>
--->
 <!-- // FULL EMAIL -->
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
@@ -185,27 +154,14 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
 
+	<!-- //HERO + LOGO-->
 
+	<tr>
+		<td class="mobilefullwidth" align="center" bgcolor="#212121">
+			<img src="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5f6cd35c3535c2679d2c21be_ticket_herofull.png" width="100%" height="auto" alt="Roller Derby Action">
+		</td>
 
-<!-- //HERO + LOGO-->
-
-<tbody class="mobilefullwidth" width="100%" height="auto" align="center" background="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5f6bb18b579dc92f841b260b_ticket_hero01.png" style="backgroundd-position: center; background color: #212121; background-repeat: no-repeat;">
-		<tr>
-			<td class="logo" align="right" style="padding: 30px 30px 0px 0px;">
-				<a href="http://www.mississippivalleymayhem.com/" target="_blank">
-				<img src="https://uploads-ssl.webflow.com/5ef21818e1d17a8877aef819/5ef2182c935e3853820e56e8_mayhem_logo_onblack.png" width="19%" height="auto" alt="Mayhem logo"></a>
-			</td>
-		</tr>
-		<tr>
-			<td class="herotext" align="right" style="padding: 30px 30px 110px 0px; ">
-				<hr class="smallline" align="right"style="height:2px; width:25%; border-width:0; color:#7BC142; background-color:#7BC142; display: inline-block;"> </hr>
-				<h3 class="h3" align="right" style="display: inline-block; font-size: 16px; line-height: 16px; font-weight: 700; color: #7BC142; text-transform: uppercase;">
-					2021 Game </h3><br>
-				<text class="largetext" align="right" style="font-size: 60px; line-height: 24px; font-weight: 700; color: #FFFFFF; text-transform: uppercase; padding-bottom: 100px;">
-					Tickets </text>
-			</td>
-		</tr>
-	</tbody>
+	</tr>
 
 
 <!-- START OF CONTENT -->
@@ -236,7 +192,7 @@
 									<!-- // BUTTON-->
 									<tr>
 										<td class="button" align="center" style="border-radius: 0px; padding: 10px 50px 10px 50px;" bgcolor="#7BC142">
-											<a href="https://www.brownpapertickets.com/browse.html" target="_blank" style="color: #212121; font-size: 20px; font-weight: 700; text-transform: uppercase; text-align: center; text-decoration: none; border-radius: 0px; display: inline-block;">
+										<!--UPDATE TO BPT MVM PAGE--> 	<a href="https://www.brownpapertickets.com/browse.html" target="_blank" style="color: #212121; font-size: 20px; font-weight: 700; text-transform: uppercase; text-align: center; text-decoration: none; border-radius: 0px; display: inline-block;">
 												Buy Tickets</a>
 										</td>
 									</tr>
@@ -350,7 +306,7 @@
 								<!-- // BUTTON-->
 								<tr>
 									<td class="button" align="center" style="border-radius: 0px; padding: 10px 50px 10px 50px;" bgcolor="#7BC142">
-										<a href="https://www.brownpapertickets.com/browse.html" target="_blank" style="color: #212121; font-size: 20px; font-weight: 700; text-transform: uppercase; text-align: center; text-decoration: none; border-radius: 0px; display: inline-block;">
+									<!--UPDATE TO BPT MVM PAGE--> 	<a href="https://www.brownpapertickets.com/browse.html" target="_blank" style="color: #212121; font-size: 20px; font-weight: 700; text-transform: uppercase; text-align: center; text-decoration: none; border-radius: 0px; display: inline-block;">
 											Buy Tickets</a>
 									</td>
 								</tr>
@@ -398,7 +354,7 @@
 						<tr>
 							<td class="unsubscribe" align="center" bgcolor="#EDEDED" style="padding: 0px 50px 50px 50px; font-size: 12px; line-height: 24px; font-weight: 400; color: #A3A3A3; padding-top: 20px;">
 								To unsubscribe from this list, please click <a class="appleLinksGrey" style="text-decoration: underline; color: #A3A3A3;"
-								href="{$unsubscribe]}"> here.</a>
+								href="{$unsubscribe]}"> here.</a> <!--UPDATE TO UNSUBSCRIBE CODE -->
 							</td>
 						</tr>
 
