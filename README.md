@@ -4,8 +4,6 @@ Responsive HTML email templates created for **Mississippi Valley Mayhem Roller D
 
 The templates were designed for deployment through an email service provider (ESP) such as Mailchimp, Constant Contact, or MailerLite, with an emphasis on responsive layouts and compatibility across email clients.
 
-> Originally created for the Mississippi Valley Mayhem 2021 season and preserved as a portfolio project.
-
 ## Templates
 
 ### `welcome_email.html`
