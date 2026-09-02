@@ -1,4 +1,4 @@
-# mayhem-email
+# Mayhem — Responsive Email
 
 Responsive HTML email templates created for **Mississippi Valley Mayhem Roller Derby** for use in email marketing campaigns.
 
@@ -32,7 +32,7 @@ Sent shortly before each home game as a reminder. Highlights the upcoming matchu
 
 ## Technologies
 
-* HTML / XHTML
+* HTML
 * CSS
 * Responsive Web Design
 * HTML Email Development
