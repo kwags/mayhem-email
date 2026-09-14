@@ -4,6 +4,8 @@ Responsive HTML email templates created for **Mississippi Valley Mayhem Roller D
 
 The templates were designed for deployment through an email service provider (ESP) such as Mailchimp, Constant Contact, or MailerLite, with an emphasis on responsive layouts and compatibility across email clients.
 
+<img width="400" alt="desktop emails" src="https://github.com/user-attachments/assets/ff9a82b3-925e-4ba7-98f8-460d3247511d" />
+
 ## Templates
 
 ### `welcome_email.html`
@@ -17,6 +19,8 @@ Sent a few weeks before the season begins. Provides the complete home-game sched
 ### `game_email.html`
 
 Sent shortly before each home game as a reminder. Highlights the upcoming matchup and event details and provides a link to purchase tickets.
+
+<img width="400" alt="mvm_email" src="https://github.com/user-attachments/assets/b79bf4d6-8689-4285-bd30-503ada7ce5fd" />
 
 ## Technical Features
 
